@@ -10,7 +10,7 @@ def curve():
         pen. forward (1)
 
 
-def loheart():
+def love_heart():
 
     pen.fillcolor('red')
     pen.begin_fill() 
@@ -29,9 +29,9 @@ def text():
     pen.setpos(-68, 95)
     pen.down()
     pen.color('lightgreen') 
-    pen.write("ELIJAH", font={ "Verdana", 12, "bold"})
+    pen.write("I LOVE YOU", font={ "Verdana", 12, "bold"})
   
 
-loheart()
+love_heart()
 text()
 pen.ht()
