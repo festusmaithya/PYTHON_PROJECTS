@@ -7,7 +7,7 @@ Created on Wed May  4 10:16:35 2022
 #creating a chess board
 
 import matplotlib.pyplot as plt
-import numphy as np
+import numpy as np
 from matplotlib.colors import ListedColormap
 
 board=np.tile([1,0],[8,4])
